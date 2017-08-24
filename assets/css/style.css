@@ -263,16 +263,11 @@ input[type=submit] {
   }
 /* portfolio page */
   
-/*  .work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
-  }*/
+
   h1{
     margin-bottom: 40px;
   }
+
   .work{
     width: 100%;
     margin-bottom: 36px;
@@ -282,6 +277,7 @@ input[type=submit] {
 }
 
 @media (max-width: 768px) {
+  /*general*/
   #masthead{
     padding-left: 20px;
     padding-right: 20px;
@@ -303,6 +299,29 @@ input[type=submit] {
     max-width: 726px;
     padding: 30px;
     margin: 20px 20px 40px 20px;
+  }
+  /* portfolio page */
+
+  .work{
+    width:274px;
+  }
+
+  #main-container{
+    padding-top: 130px;
+  }
+  .main-section{
+    float: left;
+    margin: 0;
+
+  }
+  .work {
+  width: 274px;
+  margin: 0;
+  float: left;
+  }
+  .sidebar{
+    float: left;
+    margin-left: 0px;
   }
 }
 
@@ -351,10 +370,27 @@ input[type=submit] {
    bottom: 0;
   } 
   
-  /* index page */
+/* index page */
   
   .auth-image{
     width: 100%;
+  }
+
+/* portfolio page */
+  #main-container{
+    padding-top: 0;
+  }
+  .container{
+
+  }
+  .main-section{
+    float: left;
+  }
+  .work{
+    width: 100%;
+  }
+  .sidebar{
+    float: left;
   }
 
 }
