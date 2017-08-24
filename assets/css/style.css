@@ -250,7 +250,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media (min-width: 769px) and (max-width: 980px) {
+@media (max-width: 980px) {
   .container{
     max-width: 728px;
 
@@ -260,6 +260,23 @@ input[type=submit] {
   }
   .auth-image{
     width: 100%;
+  }
+/* portfolio page */
+  
+/*  .work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+  }*/
+  h1{
+    margin-bottom: 40px;
+  }
+  .work{
+    width: 100%;
+    margin-bottom: 36px;
+    float:none;
   }
 
 }
@@ -292,6 +309,7 @@ input[type=submit] {
 
   
 @media (max-width: 640px) {
+
   #masthead{
     padding-left: 0;
     padding-right: 0;
@@ -327,12 +345,17 @@ input[type=submit] {
     padding: 30px;
     margin: 20px 20px 40px 20px;
   }
-  .auth-image{
-    width: 100%;
-  }
+
   .footer{
     position: fixed;
    bottom: 0;
-}
+  } 
+  
+  /* index page */
+  
+  .auth-image{
+    width: 100%;
+  }
+
 }
 }
