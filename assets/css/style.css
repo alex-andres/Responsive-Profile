@@ -112,7 +112,6 @@ footer {
 
 .sidebar {
   float: right;
-  width: 100%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
@@ -322,6 +321,10 @@ input[type=submit] {
   .sidebar{
     float: left;
     margin-left: 0px;
+  }
+  /*contact page*/
+  .main-section{
+
   }
 }
 
